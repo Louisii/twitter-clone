@@ -2,7 +2,7 @@ import ProfilePitcure from "./ProfilePicture"
 
 const Tweet = (props) => {
     return (
-        <div className="">
+        <div className="md:max-w-xl">
 
             <div className="inline-block ">
                 <ProfilePitcure />
@@ -23,7 +23,7 @@ const Tweet = (props) => {
                     </div>
 
                     <div className=" text-right">
-                        <h3 className="dark:text-gray-400 ml-10 hover:text-blue-400 hover:bg-blue-950 rounded-full px-1">
+                        <h3 className="dark:text-gray-400 ml-36 hover:text-blue-400 hover:bg-blue-950 rounded-full px-1">
                             •••
                         </h3>
 
@@ -31,10 +31,13 @@ const Tweet = (props) => {
                 </div>
 
                 <div className="dark:text-white">
-                    <p>{props.tweet}</p>
+                    <p>{props.content}</p>
                 </div>
 
             </div>
+
+
+
         </div>
     )
 }
