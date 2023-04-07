@@ -6,7 +6,7 @@ const Home = (props) => {
     return (
         <>
             <div className="md:mx-10">
-                <div className="grid md:grid-cols-6">
+                <div className="grid md:grid-cols-6 gap-3">
                     <div className="col-span-1 p-2 pt-0">
                         <Menu />
                     </div>

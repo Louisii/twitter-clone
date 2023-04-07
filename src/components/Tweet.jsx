@@ -37,11 +37,11 @@ const Tweet = (props) => {
                     <p>{props.content}</p> 
                 </div>
                 <div className="grid grid-cols-5 dark:text-gray-400 mt-4 text-center">
-                    <FaRegComment className="hover:text-blue-400 hover:bg-blue-950 rounded-full"/> 
+                    <FaRegComment className="hover:text-blue-500 hover:bg-blue-950 rounded-full"/> 
                     <FaRetweet className="dark:text-gray-600 text-xl"/> 
                     <FaRegHeart className="hover:text-pink-700"/>
-                    <FaRegChartBar className="hover:text-blue-400 hover:bg-blue-950 rounded-full"/>
-                    <FaShareSquare className="hover:text-blue-400 hover:bg-blue-950 rounded-full"/>
+                    <FaRegChartBar className="hover:text-blue-500 hover:bg-blue-950 rounded-full"/>
+                    <FaShareSquare className="hover:text-blue-500 hover:bg-blue-950 rounded-full"/>
                 </div>
 
             </div>
