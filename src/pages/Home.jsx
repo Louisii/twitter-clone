@@ -6,11 +6,11 @@ const Home = (props) => {
     return (
         <>
             <div className="md:mx-10">
-                <div className="grid md:grid-cols-6 gap-3">
+                <div className="grid md:grid-cols-4 gap-3">
                     <div className="col-span-1 p-2 pt-0">
                         <Menu />
                     </div>
-                    <div className="col-span-3 p-2 pt-0">
+                    <div className="col-span-2 p-2 pt-0">
                         <Tweet userName="Lou" user="@louisimtd" postingTime="6h" content="estou pronto para essa semana de 3 dias úteis" />
                         <Tweet userName="Lou" user="@louisimtd" postingTime="8h" content="ha 5 minutos faltavam 9 minutos pro ônibus passar e agora, depois de esperar 5 minutos, ele está a 12 min de distância 🥰🥰 amo o floripanopinto" />
                         <Tweet userName="Lou" user="@louisimtd" postingTime="6h" content="moça não me julgue eu n consigo fazer o mov abdominal mais amplo sem me cagar 🤭" />
